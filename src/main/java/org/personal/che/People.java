@@ -23,10 +23,13 @@ import jakarta.persistence.Id;
  * }
  */
 @Entity
-public class MyEntity {
+public class People {
     @Id
     @GeneratedValue
     public Long id;
 
-    public String field;
+    public String firstname;
+
+    public String name;
+
 }
